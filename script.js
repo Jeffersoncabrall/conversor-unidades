@@ -6,7 +6,6 @@ let convertButton = document.querySelector("#converter-btn");
 let outputElement = document.querySelector("#output");
 let messageElement = document.querySelector("#message");
 
-//Função para converter as unidades
 function convert() {
   const fromValue = fromElement.value;
   const toValue = toElement.value;
