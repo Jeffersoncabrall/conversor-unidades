@@ -17,7 +17,6 @@ function convert() {
     return;
   }
 
-  //Converter a entrada para metros
   let meters;
 
   switch (fromValue) {
@@ -51,10 +50,8 @@ function convert() {
       break;
   }
 
-  //Exibir resultado no input
   outputElement.value = result;
 
-  //Exibir resultado na mensagem
   let fromLabel = fromElement.options[fromElement.selectedIndex].text;
   let toLabel = toElement.options[toElement.selectedIndex].text;
 
